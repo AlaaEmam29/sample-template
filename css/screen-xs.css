@@ -96,14 +96,32 @@
     width: 90%;
     text-align: left !important;
 }
-/*************** == contact style == **************/
-.contact-body
-{
-    height: 85vh;
-}
-
-
-
-
+.col-img {
+    height: 150px;
+    position: relative;
+    left:-20%;
+  
+  
+  }
+  .col-img button {
+    position: relative;
+    left: 1rem;
+    height: 66px !important;
+    width: 66px !important;
+  }
+  .col-img  h3{
+      font-size: 8px;
+  }
+  .col-img::before {
+    content: "";
+    width:3px;
+    height:250px;
+    position: absolute;
+    background-color: #e9ecef;
+    bottom: 100%;
+    z-index: -3;
+    left: 10%;
+  }
+  
 
 }

@@ -13,7 +13,7 @@
 {
     content: " ";
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 55px;
     width: 3px;
     height: 280px;
@@ -27,6 +27,8 @@
     left: 50px;
     width: 90%;
     text-align: left !important;
+    margin-left: 2rem;
+
 }
 
 .img-li2
@@ -40,7 +42,7 @@
 {
     content: " ";
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 55px;
     width: 3px;
     height: 280px;
@@ -50,6 +52,8 @@
 }
 .info-li2
 {
+    margin-left: 2rem;
+
     position: relative;
     left: 50px;
     width: 90%;
@@ -67,7 +71,7 @@
 {
     content: " ";
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 55px;
     width: 3px;
     height: 280px;
@@ -77,6 +81,8 @@
 }
 .info-li3
 {
+    margin-left: 2rem;
+
     position: relative;
     left: 50px;
     width: 90%;
@@ -97,21 +103,39 @@
     left: 50px;
     width: 90%;
     text-align: left !important;
+    margin-left: 2rem;
 }
+
+
 /*************** == contact style == **************/
-.contact-body
-{
-    height: 85vh;
-}
-.btn-snd
-{
- position: relative;
-bottom: 100%; 
-}
-.footer
-{
-    margin-top: 40px;
-}
+.col-img {
+    height: 150px;
+    position: relative;
+    left:-20%;
+  
+  
+  }
+  .col-img button {
+    position: relative;
+    left: 0rem;
+    height: 67px !important;
+    width: 67px !important;
+  }
+  .col-img  h3{
+      font-size: 10px;
+  }
+  .col-img::before {
+    content: "";
+    width:3px;
+    height:250px;
+    position: absolute;
+    background-color: #e9ecef;
+    bottom: 100%;
+    z-index: -3;
+    left: 7%;
+  }
+
+
 
 
 }
