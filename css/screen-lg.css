@@ -1,0 +1,126 @@
+@media screen and (min-width :992px) and (max-width :1199.98px)
+{
+    /***************about*************************/
+
+.img-li1
+{
+    position: relative;
+    right: 19%;
+   
+}
+.img-li1::before
+{
+    content: " ";
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    width: 3px;
+    height: 250px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li1
+{
+    position: relative;
+    right: 19%;
+    width: 33%;
+
+}
+
+.img-li2
+{
+    position: relative;
+    bottom: 90%;
+    right: 19%;
+   
+}
+.img-li2::before
+{
+    content: " ";
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    width: 3px;
+    height: 250px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li2
+{
+    position: relative;
+    left: 42%;
+    width: 33%;
+}
+
+.img-li3
+{
+    position: relative;
+    right: 19%;
+   
+}
+.img-li3::before
+{
+    content: " ";
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    width: 3px;
+    height: 250px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li3
+{
+    position: relative;
+    right: 19%;
+    width: 33%;
+
+}
+
+.img-li4
+{
+    position: relative;
+    bottom: 90%;
+    right: 19%;
+   
+}
+/* .img-li4::before
+{
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 53%;
+    
+    width: 3px;
+    height: 200px;
+    background-color: #e9ecef;
+    
+    
+} */
+.info-li4
+{
+    position: relative;
+    left: 42%;
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

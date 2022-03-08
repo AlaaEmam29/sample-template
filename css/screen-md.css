@@ -1,0 +1,112 @@
+@media screen and (min-width :768px) and (max-width :991.98px)
+{
+    
+    /***************about*************************/
+
+.img-li1
+{
+    position: relative;
+    right: 25%;
+    width: 120px;
+}
+.img-li1::before
+{
+    content: " ";
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    width: 3px;
+    height: 300px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li1
+{
+    position: relative;
+    right: 25%;
+    width: 40%;
+
+}
+
+.img-li2
+{
+    position: relative;
+    right: 26%;
+    width: 120px;
+}
+.img-li2::before
+{
+    content: " ";
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    width: 3px;
+    height: 300px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li2
+{
+    position: relative;
+    left: 34%;
+    width: 40%;
+}
+
+.img-li3
+{
+    position: relative;
+    right: 26%;
+    width: 120px;
+}
+.img-li3::before
+{
+    content: " ";
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    width: 3px;
+    height: 300px;
+    background-color: #e9ecef;
+    
+}
+.info-li3
+{
+    position: relative;
+    right: 25%;
+    width: 40%;
+
+}
+
+.img-li4
+{
+    position: relative;
+    right: 26%;
+    width: 120px;
+   
+}
+/* .img-li4::before
+{
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 53%;
+    
+    width: 3px;
+    height: 200px;
+    background-color: #e9ecef;
+    
+    
+} */
+.info-li4
+{
+    position: relative;
+    left: 34%;
+    width: 40%;
+}
+
+
+
+
+}

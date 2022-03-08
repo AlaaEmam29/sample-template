@@ -1,0 +1,167 @@
+.text-main
+{
+    color: #ffc800 !important;
+}
+.bg-main
+{
+    background-color: #ffc800 !important;
+}
+/************** ==Navbar Style== ****************/
+.navbar
+{
+    z-index: 999;
+}
+.nav-link:hover
+{
+    color: #ffc800 !important;
+}
+
+/**************** ==Home Style== **************/
+#home
+{
+    height: 80vh;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.f-s1
+{
+    font-size: 36px;
+}
+.f-s2
+{
+    font-size: 70px;
+    
+}
+/************* ==portfolio Style== **************/
+.overlay
+{
+    opacity: 0;
+    transition: all 1s;
+}
+.overlay:hover
+{
+    opacity: .9;
+}
+
+/*************** == about style == **************/
+
+.img-li1
+{
+    position: relative;
+    right: 19%;
+   
+}
+.img-li1::before
+{
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 53%;
+    
+    width: 3px;
+    height: 200px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li1
+{
+    position: relative;
+    right: 19%;
+    width: 33%;
+
+}
+
+.img-li2
+{
+    position: relative;
+    bottom: 90%;
+    right: 19%;
+   
+}
+.img-li2::before
+{
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 53%;
+    width: 3px;
+    height: 200px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li2
+{
+    position: relative;
+    left: 34%;
+    width: 33%;
+}
+
+.img-li3
+{
+    position: relative;
+    right: 19%;
+   
+}
+.img-li3::before
+{
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 53%;
+    width: 3px;
+    height: 200px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li3
+{
+    position: relative;
+    right: 19%;
+    width: 33%;
+
+}
+
+.img-li4
+{
+    position: relative;
+    bottom: 90%;
+    right: 19%;
+   
+}
+/* .img-li4::before
+{
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 53%;
+    
+    width: 3px;
+    height: 200px;
+    background-color: #e9ecef;
+    
+    
+} */
+.info-li4
+{
+    position: relative;
+    left: 34%;
+    width: 33%;
+}
+.img-li5
+{
+    position: relative;
+    bottom: 90%;
+    right: 2%;
+    width: 8%;
+   
+}
+.contact-body
+{
+    background-image: url(../images/map-image.png);
+    background-size: cover;
+    height: 65vh;
+}

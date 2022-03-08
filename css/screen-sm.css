@@ -1,0 +1,117 @@
+@media screen and (min-width :576px) and (max-width :767.98px)
+{
+   
+        /***************about*************************/
+
+.img-li1
+{
+    position: relative;
+    right: 420px;
+    width: 100px ;
+}
+.img-li1::before
+{
+    content: " ";
+    position: absolute;
+    top: 35%;
+    left: 55px;
+    width: 3px;
+    height: 280px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li1
+{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    text-align: left !important;
+}
+
+.img-li2
+{
+    position: relative;
+    right: 420px;
+    width: 100px ;
+   
+}
+.img-li2::before
+{
+    content: " ";
+    position: absolute;
+    top: 35%;
+    left: 55px;
+    width: 3px;
+    height: 280px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li2
+{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    text-align: left !important;
+}
+
+.img-li3
+{
+    position: relative;
+    right: 420px;
+    width: 100px ;
+   
+}
+.img-li3::before
+{
+    content: " ";
+    position: absolute;
+    top: 35%;
+    left: 55px;
+    width: 3px;
+    height: 280px;
+    background-color: #e9ecef;
+    
+    
+}
+.info-li3
+{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    text-align: left !important;
+}
+
+.img-li4
+{
+    position: relative;
+    right: 420px;
+    width: 100px ;
+   
+}
+
+.info-li4
+{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    text-align: left !important;
+}
+/*************** == contact style == **************/
+.contact-body
+{
+    height: 85vh;
+}
+.btn-snd
+{
+ position: relative;
+bottom: 100%; 
+}
+.footer
+{
+    margin-top: 40px;
+}
+
+
+}
